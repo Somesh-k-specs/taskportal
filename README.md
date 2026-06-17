@@ -177,6 +177,13 @@ On AI Suggestions page:
 
 ## Database Schema
 
+See ER diagram below:
+
+![ER Diagram](https://github.com/Somesh-k-specs/taskportal/blob/main/ER_DIAGRAM.svg)
+
+
+
+
 ### Users Table
 ```sql
 CREATE TABLE users (
