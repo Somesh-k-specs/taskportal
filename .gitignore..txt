@@ -1,0 +1,14 @@
+# Secrets
+**/application-local.properties
+**/.env
+**/.env.local
+
+# Build outputs
+**/target/
+**/node_modules/
+**/dist/
+
+# IDE
+.idea/
+*.iml
+.vscode/
