@@ -22,7 +22,7 @@ export default function PublicNavbar() {
         <button onClick={() => navigate('/home')}
           className="flex items-center gap-2 font-bold text-gray-900 text-lg hover:text-blue-600 transition-colors">
           <span className="text-2xl">✅</span>
-          TaskPortal
+          DoAble
         </button>
 
         {/* Desktop nav */}

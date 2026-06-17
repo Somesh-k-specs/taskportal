@@ -1,4 +1,4 @@
-# TaskPortal — AI-Powered Task Management
+# DoAble — AI-Powered Task Management
 
 A full-stack task management application built with Spring Boot + React + Gemini AI.
 

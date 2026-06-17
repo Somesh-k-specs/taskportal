@@ -30,7 +30,7 @@ export default function RegisterPage() {
     try {
       const { data } = await authApi.register(form)
       login(data)
-      toast.success('Account created! Welcome to TaskPortal 🎉')
+      toast.success('Account created! Welcome to DoAble 🎉')
       navigate('/dashboard')
     } catch (err) {
       const msg = err.response?.data?.error || 'Registration failed'
@@ -46,7 +46,7 @@ export default function RegisterPage() {
       {/* Page heading */}
       <div className="text-center mb-8">
         <h1 className="text-2xl font-bold text-gray-900">Create your account</h1>
-        <p className="mt-1 text-gray-500 text-sm">Join TaskPortal and start managing tasks smarter</p>
+        <p className="mt-1 text-gray-500 text-sm">Join DoAble and start managing tasks smarter</p>
       </div>
 
       <div className="bg-white rounded-2xl shadow-lg border border-gray-100 px-8 py-8">

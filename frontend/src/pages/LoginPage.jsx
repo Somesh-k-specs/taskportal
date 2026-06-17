@@ -44,7 +44,7 @@ export default function LoginPage() {
       {/* Page heading */}
       <div className="text-center mb-8">
         <h1 className="text-2xl font-bold text-gray-900">Welcome back</h1>
-        <p className="mt-1 text-gray-500 text-sm">Sign in to your TaskPortal account</p>
+        <p className="mt-1 text-gray-500 text-sm">Sign in to your DoAble account</p>
       </div>
 
       <div className="bg-white rounded-2xl shadow-lg border border-gray-100 px-8 py-8">

@@ -32,7 +32,7 @@ export default function Layout({ children }) {
         {/* Logo */}
         <div className="flex items-center gap-2 px-6 py-5 border-b border-gray-100">
           <span className="text-2xl">✅</span>
-          <span className="font-bold text-gray-900 text-lg">TaskPortal</span>
+          <span className="font-bold text-gray-900 text-lg">DoAble</span>
         </div>
 
         {/* Nav */}

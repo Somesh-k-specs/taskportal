@@ -44,15 +44,15 @@ const steps = [
 
 const faqs = [
   {
-    q: 'Is TaskPortal free to use?',
-    a: 'Yes — TaskPortal is completely free. Create an account and start managing your tasks right away.',
+    q: 'Is DoAble free to use?',
+    a: 'Yes — DoAble is completely free. Create an account and start managing your tasks right away.',
   },
   {
     q: 'How does the AI auto-fill work?',
     a: 'When you type a task title and click "Auto-fill with AI", our backend sends the title to Gemini AI which generates a smart description, recommends a priority level, and estimates the effort needed.',
   },
   {
-    q: 'Can I use TaskPortal without logging in?',
+    q: 'Can I use DoAble without logging in?',
     a: 'You can browse this page and explore the documentation. To create or manage tasks, you need a free account.',
   },
   {
@@ -101,7 +101,7 @@ export default function GlobalDashboard() {
             <span className="text-yellow-300">Let AI handle the rest.</span>
           </h1>
           <p className="mt-6 text-lg text-blue-100 max-w-2xl mx-auto leading-relaxed">
-            TaskPortal is a smart personal task manager that uses AI to auto-fill task details,
+            DoAble is a smart personal task manager that uses AI to auto-fill task details,
             detect risks, suggest priorities, and keep you focused on what matters.
           </p>
           <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
@@ -190,10 +190,10 @@ export default function GlobalDashboard() {
         </div>
       </section>
 
-      {/* ── Why TaskPortal ── */}
+      {/* ── Why DoAble ── */}
       <section className="max-w-4xl mx-auto px-6 py-20">
         <div className="text-center mb-12">
-          <p className="text-sm font-semibold text-blue-600 uppercase tracking-widest mb-2">Why TaskPortal?</p>
+          <p className="text-sm font-semibold text-blue-600 uppercase tracking-widest mb-2">Why DoAble?</p>
           <h2 className="text-3xl font-bold text-gray-900">Built for real productivity</h2>
         </div>
         <div className="grid sm:grid-cols-2 gap-6">
@@ -237,7 +237,7 @@ export default function GlobalDashboard() {
         <div className="max-w-2xl mx-auto px-6">
           <h2 className="text-3xl font-bold mb-4">Ready to get started?</h2>
           <p className="text-blue-100 mb-10 leading-relaxed">
-            Stop juggling tasks in your head. TaskPortal keeps everything organised so you can focus on doing, not remembering.
+            Stop juggling tasks in your head. DoAble keeps everything organised so you can focus on doing, not remembering.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             {!isAuthenticated && (
@@ -265,7 +265,7 @@ export default function GlobalDashboard() {
       <footer className="bg-gray-900 text-gray-400 text-center py-8 text-sm">
         <div className="flex items-center justify-center gap-2 mb-2">
           <span className="text-xl">✅</span>
-          <span className="font-semibold text-white">TaskPortal</span>
+          <span className="font-semibold text-white">DoAble</span>
         </div>
         <p>AI-Powered Task Management · Built with React + Spring Boot + Gemini AI</p>
       </footer>
