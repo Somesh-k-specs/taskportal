@@ -2,4 +2,5 @@ target/
 *.class
 *.jar
 application-local.properties
+run-local.bat
 .env
