@@ -211,47 +211,22 @@ CREATE TABLE tasks (
 ## Screenshots
 
 ### 1. Login Page
-- Email and password input fields
-- Register link
-- Submit button
-- Error message display for invalid credentials
+![Login Page](https://github.com/Somesh-k-specs/taskportal/blob/main/screenshots/Screenshot%202026-06-17%20152143.png)
 
 ### 2. Dashboard - Task List
-- List of all user tasks
-- Task cards showing: title, priority, status, due date
-- Edit button for each task
-- Delete button for each task
-- "Create New Task" button
-- Filter by status option (TODO, IN_PROGRESS, DONE)
+![Dashboard](https://github.com/Somesh-k-specs/taskportal/blob/main/screenshots/Screenshot%202026-06-17%20152123.png)
 
-### 3. Create Task Page
-- Title input field
-- Description text area
-- Priority dropdown (LOW, MEDIUM, HIGH)
-- Due date picker
-- "Auto-fill with AI" button
-- Save button
+### 3. Create Task with AI
+![Create Task](https://github.com/Somesh-k-specs/taskportal/blob/main/screenshots/Screenshot%202026-06-17%20152240.png)
 
-### 4. AI Generated Task Details
-- Title (user input)
-- Auto-generated description
-- Auto-suggested priority
-- Estimated time
-- Edit option before saving
-- Save button
+### 4. AI Feature - Auto-fill
+![AI Feature](https://github.com/Somesh-k-specs/taskportal/blob/main/screenshots/Screenshot%202026-06-17%20153152.png)
 
-### 5. AI Suggestions Page
-- Smart Priority Suggestions section
-- Duplicate Task Warnings section
-- Due Date Risk Alerts section
-- Each suggestion with task details
-- Clear/Dismiss options
+### 5. Task Update & Status
+![Task Update](https://github.com/Somesh-k-specs/taskportal/blob/main/screenshots/Screenshot%202026-06-17%20152224.png)
 
-### 6. Task Update Page
-- Edit task title, description, priority, due date
-- Update status dropdown (TODO → IN_PROGRESS → DONE)
-- Save button
-- Delete button
+### 6. Ai Assitant Analysis
+![Ai Analysis](https://github.com/Somesh-k-specs/taskportal/blob/main/screenshots/Screenshot%202026-06-17%20152301.png)
 
 ---
 
